@@ -1,0 +1,18 @@
+{
+  "name": "snake-paste",
+  "main": "./lib/snake-paste",
+  "version": "0.0.0",
+  "description": "A simple package that transforms strings from snake case to camel case and vice versa",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "snake-paste:transform"
+  },
+  "repository": "https://github.com/atom/snake-paste",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

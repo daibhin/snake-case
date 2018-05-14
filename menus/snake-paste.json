@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Transform pasted string",
+        "command": "snake-paste:transform"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "SnakePaste",
+          "submenu": [
+            {
+              "label": "Transform",
+              "command": "snake-paste:transform"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
